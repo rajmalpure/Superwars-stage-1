@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.heroes1,.heroes2{
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    grid-template-rows: 245px 245px 245px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.heroes1{
+    justify-content: end;
+}
+
+.heroes2{
+    justify-content: start;
+}
+
+.scorecard{
+    display: grid;
+    grid-template-columns: 95px 80px 50px;
+    grid-template-rows: 245px 245px 245px;
+    padding-top: 10px;
+    font-size: 200%;
+}
+
+.hero{
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score{
+    font-size: 300%;
+}
